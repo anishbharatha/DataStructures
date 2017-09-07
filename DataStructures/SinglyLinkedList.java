@@ -8,7 +8,7 @@ public class SinglyLinkedList {
 	
 	//Constructor to initialize LinkedList
 	public SinglyLinkedList() {
-		System.out.println("SinglyLinkedList initiatlized...");
+		System.out.println("SinglyLinkedList initiatlized...!");
 		tailNode=null;
 		size=0;		
 	}
