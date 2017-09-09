@@ -8,6 +8,6 @@ public class StructuresApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StructuresApplication.class, args);
-		System.out.println("Hello, I am working6");
+		System.out.println("Hello, I am working7");
 	}
 }
