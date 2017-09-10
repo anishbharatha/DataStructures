@@ -15,4 +15,9 @@ public class PingController {
 	public String handlePing(){
 		return "Ping received. I am 200";
 	}
+	
+	@RequestMapping("/hello")
+	public String handleHello(){
+		return "Hello back";
+	}
 }
