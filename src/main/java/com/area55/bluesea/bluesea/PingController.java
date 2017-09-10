@@ -8,7 +8,7 @@ public class PingController {
 
 	@RequestMapping("/")
 	public String handleIndex(){
-		return "Yay! I am Index and I am 200";
+		return "Yay! I am Index and I am 200.OK";
 	}
 	
 	@RequestMapping("/ping")
