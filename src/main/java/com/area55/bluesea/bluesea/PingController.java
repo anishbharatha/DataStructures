@@ -6,8 +6,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PingController {
 
+	@RequestMapping("/")
+	public String handleIndex(){
+		return "Yay! I am Index and I am 200";
+	}
+	
 	@RequestMapping("/ping")
 	public String handlePing(){
-		return "Yay! I am 200";
+		return "Ping received. I am 200";
 	}
 }
